@@ -1,0 +1,11 @@
+prefix=/cloud/project/Python/shiny-nlp
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/cloud/project/Python/shiny-nlp/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

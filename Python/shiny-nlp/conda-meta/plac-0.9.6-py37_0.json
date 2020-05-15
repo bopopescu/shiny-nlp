@@ -1,0 +1,151 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "/home/rstudio-user/.local/share/r-miniconda/pkgs/plac-0.9.6-py37_0",
+  "features": "",
+  "files": [
+    "bin/plac_runner.py",
+    "lib/python3.7/site-packages/__pycache__/plac.cpython-37.pyc",
+    "lib/python3.7/site-packages/__pycache__/plac_core.cpython-37.pyc",
+    "lib/python3.7/site-packages/__pycache__/plac_ext.cpython-37.pyc",
+    "lib/python3.7/site-packages/__pycache__/plac_tk.cpython-37.pyc",
+    "lib/python3.7/site-packages/plac-0.9.6-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/plac-0.9.6-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/plac-0.9.6-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/plac-0.9.6-py3.7.egg-info/not-zip-safe",
+    "lib/python3.7/site-packages/plac-0.9.6-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/plac.py",
+    "lib/python3.7/site-packages/plac_core.py",
+    "lib/python3.7/site-packages/plac_ext.py",
+    "lib/python3.7/site-packages/plac_tk.py"
+  ],
+  "fn": "plac-0.9.6-py37_0.conda",
+  "legacy_bz2_md5": "a5157596fd5f29e1d07b035c791acd99",
+  "license": "BSD 2-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/rstudio-user/.local/share/r-miniconda/pkgs/plac-0.9.6-py37_0",
+    "type": 1
+  },
+  "md5": "a1f35c699ceea54835749ca43f33fff1",
+  "name": "plac",
+  "package_tarball_full_path": "/home/rstudio-user/.local/share/r-miniconda/pkgs/plac-0.9.6-py37_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/plac_runner.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "c3628c10e3fff4c580965aa7a3e4b05e252aead74fb643f8c12bb8ba87730f1b",
+        "sha256_in_prefix": "a9c25c069a227d623840c071e36cde697a464b6a9f5580614d77fe452cd9fea2",
+        "size_in_bytes": 2410
+      },
+      {
+        "_path": "lib/python3.7/site-packages/__pycache__/plac.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d8ad726c1399c4a82708077bd109a1730055c6719e3a9940c21d9d407ca6c9a2",
+        "sha256_in_prefix": "d8ad726c1399c4a82708077bd109a1730055c6719e3a9940c21d9d407ca6c9a2",
+        "size_in_bytes": 540
+      },
+      {
+        "_path": "lib/python3.7/site-packages/__pycache__/plac_core.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6d90c766e4381e2037d105e6e7e63b84e70305b973df40b4d74c98cba405b127",
+        "sha256_in_prefix": "6d90c766e4381e2037d105e6e7e63b84e70305b973df40b4d74c98cba405b127",
+        "size_in_bytes": 10963
+      },
+      {
+        "_path": "lib/python3.7/site-packages/__pycache__/plac_ext.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a484695ffccee4aca5385a8ae28085b6392fb5d33908dbb71b7e78ee34c9f0a6",
+        "sha256_in_prefix": "a484695ffccee4aca5385a8ae28085b6392fb5d33908dbb71b7e78ee34c9f0a6",
+        "size_in_bytes": 37990
+      },
+      {
+        "_path": "lib/python3.7/site-packages/__pycache__/plac_tk.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "75b6b4d12c4249f03492a81d240111c46187c135e1452b0164afe393014fa718",
+        "sha256_in_prefix": "75b6b4d12c4249f03492a81d240111c46187c135e1452b0164afe393014fa718",
+        "size_in_bytes": 2487
+      },
+      {
+        "_path": "lib/python3.7/site-packages/plac-0.9.6-py3.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "eb2d8a5648734f8e73ef1b17bc9c35832209917b80291f2d9e13715591d9a30d",
+        "sha256_in_prefix": "eb2d8a5648734f8e73ef1b17bc9c35832209917b80291f2d9e13715591d9a30d",
+        "size_in_bytes": 1984
+      },
+      {
+        "_path": "lib/python3.7/site-packages/plac-0.9.6-py3.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "07ecf038955afb64913c1facc4beed3e7160fcdc4e99b87ff19a05535454dd0c",
+        "sha256_in_prefix": "07ecf038955afb64913c1facc4beed3e7160fcdc4e99b87ff19a05535454dd0c",
+        "size_in_bytes": 1202
+      },
+      {
+        "_path": "lib/python3.7/site-packages/plac-0.9.6-py3.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.7/site-packages/plac-0.9.6-py3.7.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.7/site-packages/plac-0.9.6-py3.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "50eae834fa1217150d4965e49f5451c241c694812e397f05c91f3826e2394aab",
+        "sha256_in_prefix": "50eae834fa1217150d4965e49f5451c241c694812e397f05c91f3826e2394aab",
+        "size_in_bytes": 32
+      },
+      {
+        "_path": "lib/python3.7/site-packages/plac.py",
+        "path_type": "hardlink",
+        "sha256": "74f8cfdb7ae8e9f1ded331f590e4ddc3a498fbe5371c8b02501b6e1945619ac5",
+        "sha256_in_prefix": "74f8cfdb7ae8e9f1ded331f590e4ddc3a498fbe5371c8b02501b6e1945619ac5",
+        "size_in_bytes": 1678
+      },
+      {
+        "_path": "lib/python3.7/site-packages/plac_core.py",
+        "path_type": "hardlink",
+        "sha256": "d0a30d5a61fb270d270ef92953517e2b690ced750bd91b3835018ebed6bac0d7",
+        "sha256_in_prefix": "d0a30d5a61fb270d270ef92953517e2b690ced750bd91b3835018ebed6bac0d7",
+        "size_in_bytes": 12705
+      },
+      {
+        "_path": "lib/python3.7/site-packages/plac_ext.py",
+        "path_type": "hardlink",
+        "sha256": "f7132479d137fc464d883950884afc0885077db5f11285bcc45780bd96597e85",
+        "sha256_in_prefix": "f7132479d137fc464d883950884afc0885077db5f11285bcc45780bd96597e85",
+        "size_in_bytes": 38881
+      },
+      {
+        "_path": "lib/python3.7/site-packages/plac_tk.py",
+        "path_type": "hardlink",
+        "sha256": "78884e8c08b607c5456fccc3195ac4890f4569f001d49fc5c977e8593d9325c2",
+        "sha256_in_prefix": "78884e8c08b607c5456fccc3195ac4890f4569f001d49fc5c977e8593d9325c2",
+        "size_in_bytes": 1888
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8e21d960ab87f4eb9f64c54ca5554f691a2a9a807b7f7e5cf65a92f41497b628",
+  "size": 39048,
+  "subdir": "linux-64",
+  "timestamp": 1530961347417,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/plac-0.9.6-py37_0.conda",
+  "version": "0.9.6"
+}

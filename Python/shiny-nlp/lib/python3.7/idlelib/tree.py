@@ -44,7 +44,7 @@ def listicons(icondir=ICONDIR):
     row = column = 0
     for file in list:
         name = os.path.splitext(os.path.basename(file))[0]
-        image = PhotoImage(file=file, master=root)
+        image = PhotoImage(file=file, main=root)
         images.append(image)
         label = Label(root, image=image, bd=1, relief="raised")
         label.grid(row=row, column=column)
@@ -107,7 +107,7 @@ class TreeNode:
         file, ext = os.path.splitext(name)
         ext = ext or ".gif"
         fullname = os.path.join(ICONDIR, file + ext)
-        image = PhotoImage(master=self.canvas, file=fullname)
+        image = PhotoImage(main=self.canvas, file=fullname)
         self.iconimages[name] = image
         return image
 
@@ -438,11 +438,11 @@ class FileTreeItem(TreeItem):
 
 class ScrolledCanvas:
 
-    def __init__(self, master, **opts):
+    def __init__(self, main, **opts):
         if 'yscrollincrement' not in opts:
             opts['yscrollincrement'] = 17
-        self.master = master
-        self.frame = Frame(master)
+        self.main = main
+        self.frame = Frame(main)
         self.frame.rowconfigure(0, weight=1)
         self.frame.columnconfigure(0, weight=1)
         self.canvas = Canvas(self.frame, **opts)
@@ -462,7 +462,7 @@ class ScrolledCanvas:
         self.canvas.bind("<MouseWheel>", wheel_event)
         self.canvas.bind("<Button-4>", wheel_event)
         self.canvas.bind("<Button-5>", wheel_event)
-        #if isinstance(master, Toplevel) or isinstance(master, Tk):
+        #if isinstance(main, Toplevel) or isinstance(main, Tk):
         self.canvas.bind("<Alt-Key-2>", self.zoom_height)
         self.canvas.focus_set()
     def page_up(self, event):
@@ -478,7 +478,7 @@ class ScrolledCanvas:
         self.canvas.yview_scroll(1, "unit")
         return "break"
     def zoom_height(self, event):
-        zoomheight.zoom_height(self.master)
+        zoomheight.zoom_height(self.main)
         return "break"
 
 

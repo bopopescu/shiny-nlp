@@ -32,10 +32,10 @@ class AutoHideScrollbar(Scrollbar):
 class ScrollableTextFrame(Frame):
     """Display text with scrollbar(s)."""
 
-    def __init__(self, master, wrap=NONE, **kwargs):
+    def __init__(self, main, wrap=NONE, **kwargs):
         """Create a frame for Textview.
 
-        master - master widget for this frame
+        main - main widget for this frame
         wrap - type of text wrapping to use ('word', 'char' or 'none')
 
         All parameters except for 'wrap' are passed to Frame.__init__().
@@ -45,7 +45,7 @@ class ScrollableTextFrame(Frame):
         Note: Changing the wrapping mode of the text widget after
         instantiation is not supported.
         """
-        super().__init__(master, **kwargs)
+        super().__init__(main, **kwargs)
 
         text = self.text = Text(self, wrap=wrap)
         text.grid(row=0, column=0, sticky=NSEW)

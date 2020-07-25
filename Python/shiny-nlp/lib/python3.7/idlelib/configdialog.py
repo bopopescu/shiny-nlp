@@ -428,8 +428,8 @@ class ConfigDialog(Toplevel):
 
 
 # class TabPage(Frame):  # A template for Page classes.
-#     def __init__(self, master):
-#         super().__init__(master)
+#     def __init__(self, main):
+#         super().__init__(main)
 #         self.create_page_tab()
 #         self.load_tab_cfg()
 #     def create_page_tab(self):
@@ -475,8 +475,8 @@ font_sample_text = (
 
 class FontPage(Frame):
 
-    def __init__(self, master, highpage):
-        super().__init__(master)
+    def __init__(self, main, highpage):
+        super().__init__(main)
         self.highlight_sample = highpage.highlight_sample
         self.create_page_font_tab()
         self.load_font_cfg()
@@ -685,10 +685,10 @@ class FontPage(Frame):
 
 class HighPage(Frame):
 
-    def __init__(self, master):
-        super().__init__(master)
-        self.cd = master.master
-        self.style = Style(master)
+    def __init__(self, main):
+        super().__init__(main)
+        self.cd = main.main
+        self.style = Style(main)
         self.create_page_highlight()
         self.load_theme_cfg()
 
@@ -1344,9 +1344,9 @@ class HighPage(Frame):
 
 class KeysPage(Frame):
 
-    def __init__(self, master):
-        super().__init__(master)
-        self.cd = master.master
+    def __init__(self, main):
+        super().__init__(main)
+        self.cd = main.main
         self.create_page_keys()
         self.load_key_cfg()
 
@@ -1776,8 +1776,8 @@ class KeysPage(Frame):
 
 class GenPage(Frame):
 
-    def __init__(self, master):
-        super().__init__(master)
+    def __init__(self, main):
+        super().__init__(main)
 
         self.init_validators()
         self.create_page_general()

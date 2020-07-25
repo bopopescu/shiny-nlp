@@ -14,7 +14,7 @@ from idlelib.percolator import Percolator
 class Dummy_editwin:
     def __init__(self, text):
         self.text = text
-        self.text_frame = self.text.master
+        self.text_frame = self.text.main
         self.per = Percolator(text)
         self.undo = Delegator()
         self.per.insertfilter(self.undo)

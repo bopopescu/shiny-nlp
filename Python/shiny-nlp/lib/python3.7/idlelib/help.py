@@ -249,22 +249,22 @@ def copy_strip():
 
     Files with trailing whitespace cannot be pushed to the git cpython
     repository.  For 3.x (on Windows), help.html is generated, after
-    editing idle.rst on the master branch, with
+    editing idle.rst on the main branch, with
       sphinx-build -bhtml . build/html
       python_d.exe -c "from idlelib.help import copy_strip; copy_strip()"
     Check build/html/library/idle.html, the help.html diff, and the text
     displayed by Help => IDLE Help.  Add a blurb and create a PR.
 
     It can be worthwhile to occasionally generate help.html without
-    touching idle.rst.  Changes to the master version and to the doc
+    touching idle.rst.  Changes to the main version and to the doc
     build system may result in changes that should not changed
     the displayed text, but might break HelpParser.
 
-    As long as master and maintenance versions of idle.rst remain the
+    As long as main and maintenance versions of idle.rst remain the
     same, help.html can be backported.  The internal Python version
     number is not displayed.  If maintenance idle.rst diverges from
-    the master version, then instead of backporting help.html from
-    master, repeat the procedure above to generate a maintenance
+    the main version, then instead of backporting help.html from
+    main, repeat the procedure above to generate a maintenance
     version.
     """
     src = join(abspath(dirname(dirname(dirname(__file__)))),

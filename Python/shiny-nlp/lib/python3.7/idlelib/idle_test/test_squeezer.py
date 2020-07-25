@@ -327,7 +327,7 @@ class ExpandingButtonTest(unittest.TestCase):
         self.assertEqual(expandingbutton.s, 'TEXT')
 
         # Check that the underlying tkinter.Button is properly configured.
-        self.assertEqual(expandingbutton.master, text_widget)
+        self.assertEqual(expandingbutton.main, text_widget)
         self.assertTrue('50 lines' in expandingbutton.cget('text'))
 
         # Check that the text widget still contains no text.
